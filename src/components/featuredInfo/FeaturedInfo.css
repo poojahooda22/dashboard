@@ -8,10 +8,22 @@
     flex: 1;
     margin: 0 20px;
     padding: 30px;
+    display: flex;
+    align-items: center;
+    
+    
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 }
+
+/* .featuredChart {
+    flex: 1;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+} */
+
 .featuredTitle {
     font-size: 18px;
     font-weight: 500; 
@@ -50,3 +62,12 @@
     color: #667085;
     font-size: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    .featuredItem {
+      flex-basis: calc(100% - 40px); /* Full width on smaller screens */
+    }
+  
+   
+  }
+
