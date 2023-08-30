@@ -49,3 +49,73 @@ export const userData = [
     }, 
 
   ];
+
+
+export const data1 = [
+  {
+    name: 'Jan',
+    "Active User": 8000,
+    "color": 'red', 
+  },
+  {
+    name: 'Feb',
+    "Active User": 3000,
+    "color": 'red',
+  },
+  {
+    name: 'Mar',
+    "Active User": 4000,
+    "color": 'red',
+  },
+  {
+    name: 'Mar',
+    "Active User": 2000,
+    "color": 'red',
+  },
+]; 
+
+export const data2 = [
+  {
+    name: 'Jan',
+    "Active User": 2000,
+    "color": 'green', 
+  },
+  {
+    name: 'Feb',
+    "Active User": 5200,
+    "color": 'green',
+  },
+  {
+    name: 'Mar',
+    "Active User": 2200,
+    "color": 'green',
+  },
+  {
+    name: 'Feb',
+    "Active User": 7500,
+    "color": 'green',
+  },
+]; 
+
+export const data3 = [
+  {
+    name: 'Jan',
+    "Active User": 8000,
+    "color": 'red' 
+  },
+  {
+    name: 'Feb',
+    "Active User": 3000,
+    "color": 'red'
+  },
+  {
+    name: 'Mar',
+    "Active User": 4000,
+    "color": 'red'
+  },
+  {
+    name: 'Mar',
+    "Active User": 2000,
+    "color": 'red'
+  },
+]; 
