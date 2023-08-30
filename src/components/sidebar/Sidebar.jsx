@@ -15,20 +15,29 @@ function Sidebar() {
                         Home
                     </li>
                     <li className='sidebarListItem'>
-                        <FaIcons.FaChartBar className='sidebarIcon'/>
-                        Dashboard
+                        <FaIcons.FaMailchimp className='sidebarIcon'/>
+                        Mails
                     </li>
                     <li className='sidebarListItem'>
                         <FaIcons.FaList className='sidebarIcon'/>
                         Projects
                     </li>
+                    
                     <li className='sidebarListItem'>
-                        <FaIcons.FaUser className='sidebarIcon'/>
-                        User
+                        <FaIcons.FaChartLine className='sidebarIcon'/>
+                        Reports
+                    </li>
+                    <li className='sidebarListItem'>
+                        <FaIcons.FaChartBar className='sidebarIcon'/>
+                        Analytics
                     </li>
                     <li className='sidebarListItem'>
                         <FaIcons.FaFlag className='sidebarIcon'/>
                         Report
+                    </li>
+                    <li className='sidebarListItem'>
+                        <FaIcons.FaUser className='sidebarIcon'/>
+                        User
                     </li>
                 </ul>
             </div>
