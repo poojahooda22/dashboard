@@ -4,7 +4,11 @@ import Topbar from './components/topbar/Topbar';
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './pages/home/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import userList from './pages/userList/userList';
+import UserList from './pages/userList/UserList';
+import User from './pages/user/User';
+import NewUser from './pages/newUser/NewUser';
+import ProductList from './pages/productList/ProductList';
+import Product from './pages/product/Product';
 
 function App() {
   return (
@@ -15,7 +19,12 @@ function App() {
         
         <Routes>
           <Route exact path='/' element={<Home/>} />
-          <Route path='/users'element={<userList/>}/>    
+          <Route path='/users' element={<UserList/>}/> 
+          <Route path='/user/:userId' element={<User/>}/> 
+          <Route path='/newUser' element={<NewUser/>}/>
+          <Route path='/products' element={<ProductList/>}/> 
+          <Route path='/products/:productId' element={<Product/>}/> 
+          <Route path='/newproduct' element={<NewUser/>}/>    
         </Routes>     
       </div>        
     </Router>
