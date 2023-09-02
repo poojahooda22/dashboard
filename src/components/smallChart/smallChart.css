@@ -1,0 +1,16 @@
+.featuredChart {
+    flex: 1;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .featuredChart {
+      margin-left: 10px; /* Reduce margin for smaller screens */
+      width: 50%; /* Adjust width for smaller screens */
+      height: 50%; /* Adjust height for smaller screens */
+    }
+  }
