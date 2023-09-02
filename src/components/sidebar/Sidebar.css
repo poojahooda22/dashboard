@@ -1,5 +1,5 @@
 .sidebar {
-    flex: 0.75;
+    flex: 1;
     height: calc(100vh - 50px); 
     background-color: rgb(255, 255, 255);
     position: sticky;
@@ -7,12 +7,15 @@
 }
 
 .sidebarWrapper {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: #344054;
 }
 
 .sidebarMenu {
     margin-bottom: 12px;
+    
     
 }
 
@@ -43,3 +46,8 @@
     background-color: #7839EE;
     color: white;
 }
+
+.link{
+    text-decoration: none;
+    color: inherit;
+  }
