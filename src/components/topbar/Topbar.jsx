@@ -20,7 +20,7 @@ function Topbar() {
                 </div>
                 
             
-                <img src={Avatar} alt="avatar" />
+                <img src={Avatar} alt="avatar"  className='avatarUser'/>
             </div>
         </div>
       
