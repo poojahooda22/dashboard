@@ -1,0 +1,44 @@
+.widgetSm {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(81, 81, 81, 0.1), 0 6px 20px rgba(57, 57, 57, 0.1);
+    margin-right: 20px;
+}
+
+.widgetSmTitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #667085;
+}
+
+.widgetSmImg {
+    width: 40px;
+    height: 40px;
+}
+
+.widgetSmList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widgetSmListItem {
+    display: flex;
+    align-items: center;
+    
+    margin: 20px 0;
+}
+.widgetSmUser {
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+}
+.widgetSmUsername {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.widgetSmUserTitle {
+    font-size: 12px;
+    font-weight: 400;
+}
