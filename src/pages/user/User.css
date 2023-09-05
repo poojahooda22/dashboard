@@ -1,0 +1,156 @@
+.user {
+    flex: 4;
+    padding-left: 16px;
+    padding-right: 32px;
+}
+
+.userTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userAddButton {
+    width: 80px;
+    border: none;
+    padding: 8px;
+    background-color: #7839EE;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.userContainer {
+    display: flex;
+}
+
+.userShow {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.userUpdate {
+    flex: 2;
+    padding: 20px;
+    margin-left: 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.userShowTop {
+    display: flex;
+    align-items: center;
+}
+
+.userShowImg {
+    width: 40px;
+    height: 40px;
+}
+
+.userShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.userShowUsername {
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.userShowUserTitle {
+    font-size: 14px;
+    font-weight: 300;
+    color: #667085;
+}
+
+.userShowBottom {
+    margin-top: 20px;
+
+}
+
+.userShowTitle {
+    font-size: 18px;
+    color: #2e2e2e;
+    font-weight: 600;
+}
+
+.userShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #444;
+}
+.userShowIcon {
+    font-size: 16px !important;
+    color: #667085;
+    margin-right: 10px;
+}
+
+
+.userShowInfoTitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #344054;
+}
+
+.userUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userUpdateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.userUpdateImg {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.userUpdateIcon {
+    cursor: pointer;
+}
+
+.userUpdateTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.userUpdateItem > label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #344054;
+}
+
+.userUpdateInput {
+    border: none;
+    border-bottom: 1px solid #D0D5DD;
+    width: 250px;
+    height: 44px;
+}
+
+.userUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.userUpdateUpload {
+    display: flex;
+    align-items: center;
+}
+
+.userUpdateButton {
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #7839EE;
+    color: white;
+    font-size: 16px;
+}
